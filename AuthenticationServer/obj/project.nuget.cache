@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "cOdjd8E1f10=",
+  "success": true,
+  "projectFilePath": "/Users/anishbhagat/DotnetProject/AuthenticationServer/AuthenticationServer.csproj",
+  "expectedPackageFiles": [
+    "/Users/anishbhagat/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/8.0.0/microsoft.aspnetcore.authentication.jwtbearer.8.0.0.nupkg.sha512",
+    "/Users/anishbhagat/.nuget/packages/microsoft.bcl.memory/9.0.0/microsoft.bcl.memory.9.0.0.nupkg.sha512",
+    "/Users/anishbhagat/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "/Users/anishbhagat/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.0/microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "/Users/anishbhagat/.nuget/packages/microsoft.identitymodel.abstractions/8.3.1/microsoft.identitymodel.abstractions.8.3.1.nupkg.sha512",
+    "/Users/anishbhagat/.nuget/packages/microsoft.identitymodel.jsonwebtokens/7.0.3/microsoft.identitymodel.jsonwebtokens.7.0.3.nupkg.sha512",
+    "/Users/anishbhagat/.nuget/packages/microsoft.identitymodel.logging/8.3.1/microsoft.identitymodel.logging.8.3.1.nupkg.sha512",
+    "/Users/anishbhagat/.nuget/packages/microsoft.identitymodel.protocols/7.0.3/microsoft.identitymodel.protocols.7.0.3.nupkg.sha512",
+    "/Users/anishbhagat/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/7.0.3/microsoft.identitymodel.protocols.openidconnect.7.0.3.nupkg.sha512",
+    "/Users/anishbhagat/.nuget/packages/microsoft.identitymodel.tokens/8.3.1/microsoft.identitymodel.tokens.8.3.1.nupkg.sha512",
+    "/Users/anishbhagat/.nuget/packages/system.identitymodel.tokens.jwt/7.0.3/system.identitymodel.tokens.jwt.7.0.3.nupkg.sha512",
+    "/Users/anishbhagat/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.11/microsoft.aspnetcore.app.ref.8.0.11.nupkg.sha512",
+    "/Users/anishbhagat/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.11/microsoft.netcore.app.host.osx-arm64.8.0.11.nupkg.sha512",
+    "/Users/anishbhagat/.nuget/packages/microsoft.netcore.app.ref/8.0.11/microsoft.netcore.app.ref.8.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}
