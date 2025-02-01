@@ -1,8 +1,13 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
-using System.Text;
+using DotNetEnv;
 using Microsoft.IdentityModel.Tokens;
 var builder = WebApplication.CreateBuilder(args);
-var app = builder.Build();
+DotNetEnv.Env.Load();
+var key = Environment.GetEnvironmentVariable("JWT_SECRET");
+if (string.IsNullOrEmpty(key))
+{
+    throw new Exception("JWT_SECRET is not set in the environment variables");
+}
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
     {
@@ -17,6 +22,11 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             RefreshBeforeValidation = true,  // Ensures that the token is validated before it expires         
             };
     });
+builder.Services.AddAuthorization();
+var app = builder.Build();
+app.UseAuthentication();
+app.UseAuthorization();
+
 app.MapGet("/", () => "Hello World!");
 
 app.Run();
